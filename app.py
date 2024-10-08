@@ -18,7 +18,7 @@ def main():
     st.markdown(html_temp, unsafe_allow_html=True)
     
     
-    model = joblib.load('OilViscosity1Model_rf_100_40')  
+    model = joblib.load('OilViscosity1Model_rf_100_40.joblib')  
     
     p1 =st.selectbox('Select temperature' ,options =[40, 100])
         
